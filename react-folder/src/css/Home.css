@@ -1,9 +1,19 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #00FF88, #00FFFF);
+}
+
+
 .home{
-    background-color: #00FF88 ;
+
     padding: 2rem 0;
     width: 100%;
     box-sizing: border-box;
     height: 100%;
+    margin: 0;
+    
 }
 
 h1 {
@@ -25,4 +35,13 @@ color: black;
   letter-spacing: 2px;
   text-shadow: 2px 2px 4px blanchedalmond; 
   font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    flex-wrap: wrap;
+    width: 100%;
 }
