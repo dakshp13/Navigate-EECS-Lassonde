@@ -1,0 +1,13 @@
+.home{
+    background-color: #00FF88 ;
+    padding: 2rem 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-style: italic;
+}
