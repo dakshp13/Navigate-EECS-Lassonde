@@ -10,9 +10,8 @@ function Home() {
          <h2>Choose your Program Below</h2>
          <div className="actions">
           <ProgramButton name="First-Year Common Engineering" />
-          <ProgramButton name="Software Engineering" />
-          <ProgramButton name="Computer Engineering" />
-          <ProgramButton name="Electrical Engineering" />
+          <ProgramButton name="Software Engineering: Core Courses" />
+          <ProgramButton name="Software Engineering: Big Data Stream Courses" />
           <p>Notes: All engineering students follow a common schedule in their first year so all the material can be
             found via the first button. The other program specific buttons only include information for second year
             and onwards.

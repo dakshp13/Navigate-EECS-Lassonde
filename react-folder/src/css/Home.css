@@ -2,7 +2,8 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #00FF88, #00FFFF);
+  background-color:  #F5F5DC;
+  width: 100%;
 }
 
 
