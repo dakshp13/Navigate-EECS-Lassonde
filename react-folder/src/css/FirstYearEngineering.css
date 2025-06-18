@@ -13,10 +13,12 @@ h1 {
 
 .actionsFirstYear {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 50px;
     flex-wrap: wrap;
     width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
     
     
 }
