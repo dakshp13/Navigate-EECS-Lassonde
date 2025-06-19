@@ -2,6 +2,8 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import './css/App.css'
 import FirstYearEngineering from './pages/FirstYearEngineering'
+import CoreCourses from './pages/CoreCourses'
+import BigDataStream from './pages/BigDataStream'
 import Chem1100 from './pages/FirstYearEngineeringCourses/Chem1100'
 import Eecs1011 from './pages/FirstYearEngineeringCourses/Eecs1011'
 import Eecs1021 from './pages/FirstYearEngineeringCourses/Eecs1021'
@@ -22,6 +24,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/First-Year Common Engineering" element={<FirstYearEngineering />}/>
+        <Route path="/Software Engineering: Core Courses" element={<CoreCourses />}/>
+        <Route path="/Software Engineering: Big Data Stream Courses" element={<BigDataStream />}/>
         <Route path="/CHEM 1100" element={<Chem1100 />}/>
         <Route path="/EECS 1011" element={<Eecs1011 />}/>
         <Route path="/EECS 1021" element={<Eecs1021 />}/>
