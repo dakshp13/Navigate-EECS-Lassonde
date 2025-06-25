@@ -40,9 +40,11 @@ function Home() {
          <h1>Welcome to Navigate EECS @ Lassonde School of Engineering</h1>
          <h2>Choose your Program Below</h2>
          <div className="actions">
-          <ProgramButton name="First-Year Common Engineering" />
-          <ProgramButton name="Software Engineering: Core Courses" />
-          <ProgramButton name="Software Engineering: Big Data Stream Courses" />
+          <div className="buttons">
+            <ProgramButton name="First-Year Common Engineering" />
+            <ProgramButton name="Software Engineering: Core Courses" />
+            <ProgramButton name="Software Engineering: Big Data Stream Courses" />
+          </div>
           <h3 id="ReviewText">Feel Free to Leave a Review Below: Can be anything in terms of new resources or just other advice to add</h3>
           <form onSubmit={handleSubmit}>
             <textarea
