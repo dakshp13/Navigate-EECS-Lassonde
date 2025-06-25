@@ -21,6 +21,32 @@ import Eecs4314 from './pages/CoreCoursesCourses/FourthYear/Eecs4314'
 import Eecs4315 from './pages/CoreCoursesCourses/FourthYear/Eecs4315'
 import Eecs4413 from './pages/CoreCoursesCourses/FourthYear/Eecs4413'
 import Eng4000 from './pages/CoreCoursesCourses/FourthYear/Eng4000'
+import Eecs2021 from './pages/CoreCoursesCourses/SecondYear/Eecs2021'
+import Eecs2030 from './pages/CoreCoursesCourses/SecondYear/Eecs2030'
+import Eecs2032 from './pages/CoreCoursesCourses/SecondYear/Eecs2032'
+import Eecs2101 from './pages/CoreCoursesCourses/SecondYear/Eecs2101'
+import Eecs2200 from './pages/CoreCoursesCourses/SecondYear/Eecs2200'
+import Eecs2311 from './pages/CoreCoursesCourses/SecondYear/Eecs2311'
+import Eng2001 from './pages/CoreCoursesCourses/SecondYear/Eng2001'
+import Eng2003 from './pages/CoreCoursesCourses/SecondYear/Eng2003'
+import Math1090 from './pages/CoreCoursesCourses/SecondYear/Math1090'
+import Math2015 from './pages/CoreCoursesCourses/SecondYear/Math2015'
+import Math2930 from './pages/CoreCoursesCourses/SecondYear/Math2930'
+import Phys2020 from './pages/CoreCoursesCourses/SecondYear/Phys2020'
+import Phys2211 from './pages/CoreCoursesCourses/SecondYear/Phys2211'
+import Eecs3101 from './pages/CoreCoursesCourses/ThirdYear/Eecs3101'
+import Eecs3201 from './pages/CoreCoursesCourses/ThirdYear/Eecs3201'
+import Eecs3216 from './pages/CoreCoursesCourses/ThirdYear/Eecs3216'
+import Eecs3221 from './pages/CoreCoursesCourses/ThirdYear/Eecs3221'
+import Eecs3311 from './pages/CoreCoursesCourses/ThirdYear/Eecs3311'
+import Eecs3342 from './pages/CoreCoursesCourses/ThirdYear/Eecs3342'
+import Eng3000 from './pages/CoreCoursesCourses/ThirdYear/Eng3000'
+import Esse2210 from './pages/CoreCoursesCourses/ThirdYear/Esse2210'
+import Eecs3405 from './pages/BigDataStreamCourses/Eecs3405'
+import Eecs3421 from './pages/BigDataStreamCourses/Eecs3421'
+import Eecs4411_Eecs4414 from './pages/BigDataStreamCourses/Eecs4411_Eecs4414'
+import Eecs4412 from './pages/BigDataStreamCourses/Eecs4412'
+import Eecs4415 from './pages/BigDataStreamCourses/Eecs4415'
 
 
 function App() {
@@ -49,7 +75,32 @@ function App() {
         <Route path="/EECS 4315" element={<Eecs4315 />}/>
         <Route path="/EECS 4413" element={<Eecs4413 />}/>
         <Route path="/ENG 4000" element={<Eng4000 />}/>
-
+        <Route path="/EECS 2021" element={<Eecs2021 />}/>
+        <Route path="/EECS 2030" element={<Eecs2030 />}/>
+        <Route path="/EECS 2032" element={<Eecs2032 />}/>
+        <Route path="/EECS 2101" element={<Eecs2101 />}/>
+        <Route path="/EECS 2200" element={<Eecs2200 />}/>
+        <Route path="/EECS 2311" element={<Eecs2311 />}/>
+        <Route path="/ENG 2001" element={<Eng2001 />}/>
+        <Route path="/ENG 2003" element={<Eng2003 />}/>
+        <Route path="/MATH 1090" element={<Math1090 />}/>
+        <Route path="/MATH 2015" element={<Math2015 />}/>
+        <Route path="/MATH 2930" element={<Math2930 />}/>
+        <Route path="/PHYS 2020" element={<Phys2020 />}/>
+        <Route path="/PHYS 2211" element={<Phys2211 />}/>
+        <Route path="/EECS 3101" element={<Eecs3101 />}/>
+        <Route path="/EECS 3201" element={<Eecs3201 />}/>
+        <Route path="/EECS 3216" element={<Eecs3216 />}/>
+        <Route path="/EECS 3221" element={<Eecs3221 />}/>
+        <Route path="/EECS 3311" element={<Eecs3311 />}/>
+        <Route path="/EECS 3342" element={<Eecs3342 />}/>
+        <Route path="/ENG 3000" element={<Eng3000 />}/>
+        <Route path="/ESSE 2210" element={<Esse2210 />}/>
+        <Route path="/EECS 3405" element={<Eecs3405 />}/>
+        <Route path="/EECS 3421" element={<Eecs3421 />}/>
+        <Route path="/EECS 4411 OR EECS 4414" element={<Eecs4411_Eecs4414 />}/>
+        <Route path="/EECS 4412" element={<Eecs4412 />}/>
+        <Route path="/EECS 4415" element={<Eecs4415 />}/>
       </Routes>
     </main>
   )
