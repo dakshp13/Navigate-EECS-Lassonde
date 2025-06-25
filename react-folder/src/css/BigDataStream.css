@@ -1,0 +1,24 @@
+h1 {
+  color: black;
+  text-align: center;
+  font-style: italic;
+  font-family: sans-serif; 
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px blanchedalmond; 
+  font-size: 3rem;
+  margin-top: 40px;
+}
+
+
+
+.actionsBigData {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
