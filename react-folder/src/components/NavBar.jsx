@@ -8,8 +8,8 @@ function NavBar() {
        <Link to="/About" className="nav-link">
             About
        </Link>
-       <Link to="/Review" className="nav-link">
-            Leave a Review Here
+       <Link to="/Notes" className="nav-link">
+            Notes
        </Link>
 
     </nav>

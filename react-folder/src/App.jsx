@@ -48,6 +48,7 @@ import Eecs4411_Eecs4414 from './pages/BigDataStreamCourses/Eecs4411_Eecs4414'
 import Eecs4412 from './pages/BigDataStreamCourses/Eecs4412'
 import Eecs4415 from './pages/BigDataStreamCourses/Eecs4415'
 import About from './pages/About'
+import Notes from './pages/Notes'
 
 
 function App() {
@@ -103,6 +104,7 @@ function App() {
         <Route path="/EECS 4412" element={<Eecs4412 />}/>
         <Route path="/EECS 4415" element={<Eecs4415 />}/>
         <Route path="/About" element={<About />}/>
+        <Route path="/Notes" element={<Notes />}/>
       </Routes>
     </main>
   )
