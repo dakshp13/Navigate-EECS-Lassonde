@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #333333;
+  padding: 2rem 1rem;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-direction: row;
+  
+  
+}
+
+
+.nav-link {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+  background-color: aqua;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+

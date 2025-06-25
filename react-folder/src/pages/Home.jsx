@@ -4,6 +4,7 @@ import ProgramButton from '../components/ProgramButtons'
 import { useState } from "react";
 import { db } from "../firebase"; 
 import { collection, addDoc } from "firebase/firestore";
+import NavBar from '../components/NavBar';
 
 
 
@@ -35,6 +36,7 @@ function Home() {
   
     return (
         <div className="home">
+         <NavBar />
          <h1>Welcome to Navigate EECS @ Lassonde School of Engineering</h1>
          <h2>Choose your Program Below</h2>
          <div className="actions">
