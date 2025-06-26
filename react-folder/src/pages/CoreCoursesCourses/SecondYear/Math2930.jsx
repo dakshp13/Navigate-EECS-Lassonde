@@ -21,7 +21,7 @@ function math2930() {
                         <a href="https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV" target="_blank" rel="noopener noreferrer">
                             Organic Chem Tutor: Statistics Playlist
                          </a>
-                            : MATh 2930 doesn't require insane amounts of studying atleast compared to other courses, and mostly is doable with lecture material,
+                            : MATH 2930 doesn't require insane amounts of studying atleast compared to other courses, and mostly is doable with lecture material,
                             however if you ever get stuck this is the playlist to go for, as it covers most topics with examples in seperate videos.
                         </p>                
                     </div>
