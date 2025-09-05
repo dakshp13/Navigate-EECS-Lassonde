@@ -1,7 +1,7 @@
 # 🎓 YorkU Software Engineering Student Resource Hub  
 
 A web platform built to support **Software Engineering students at York University** by centralizing information about courses, sharing advice, and providing curated resources to help students succeed.  
-The main idea is to give the best resources for each course in the program, all in one place for people to easily find and use
+The main idea is to give the best resources for each course in the program, all in one place for people to easily find and use.
 This project is actively in development and will soon be deployed using **React** and **Firebase**.  
 
 ---
