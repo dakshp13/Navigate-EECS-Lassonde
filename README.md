@@ -34,8 +34,9 @@ This project is actively in development and will soon be deployed using **React*
 
 ## 🤝 Contributing  
 
-When the website is deployed, there will be a review/feedback section. Feel free to add any new resources or advice that you think should be there, as I am always checking the responses
-and hence will add them when I get the chance
+- When the website is deployed, there will be a review/feedback section. Feel free to add any new resources or advice that you think should be there, as I am always checking the   responses and hence will add them when I get the chance. 
+- Besides this please do not duplicate this repository for your own work since there is no open-source license
+- Credits: Some React code inspired by : Tech with Tim Youtube Channel : https://www.youtube.com/@TechWithTim
 
 ---
 
