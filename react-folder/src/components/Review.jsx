@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { db } from "../firebase"; 
-import { collection, addDoc } from "firebase/firestore";
+import { collection, addDoc, updateDoc, doc, increment } from "firebase/firestore";
 import '../css/Review.css'
 
 function Review() {
 
   const [review, setReview] = useState("");
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -18,11 +19,14 @@ function Review() {
         review: review,
         createdAt: new Date(),
       });
+     await updateDoc(doc(db, "limit" , "global"), {
+        reviewCount: increment(1)
+      });
       alert("Review submitted successfully!");
       setReview(""); 
     } catch (error) {
       console.error(error);
-      alert("Error submitting review. Try again later.");
+      alert("Error submitting review. Too Many Requests.");
     }
   };
   
