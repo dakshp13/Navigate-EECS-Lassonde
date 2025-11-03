@@ -37,7 +37,7 @@ function About(){
                 I have added the courses related to the software engineering program, however many of these courses overlap with 
                 other engineering programs as well as computer science programs. However, some of the courses such as EECS 2311 and EECS 3342 are 
                 only for the software engineering stream. For those courses I have added a little more information about the course in general, because a lot of the time 
-                software engineering specific courses have less reviews online, because they do not overlap with computer science courses.
+                software engineering specific courses have less reviews online, because they do not overlap with computer science courses
             </p>
 
         </>
